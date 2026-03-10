@@ -1,0 +1,13 @@
+spring:
+  main:
+    web-application-type: reactive
+
+server:
+  port: 8080
+
+dynamic:
+  config-file: config/app/json/user-functions.json
+
+app:
+  calculation:
+    max-concurrency: 512
